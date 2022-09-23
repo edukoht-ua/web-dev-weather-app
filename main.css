@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap');
+
+body {
+    font-family: 'Source Sans Pro';
+    color:  #C3BAD5 ;
+}
+
+.main-content {
+    width: 1000px;
+    margin: auto;
+    margin-top: 60px;
+    background-color: #693570;
+    border-radius: 15px;
+}
+
+.main-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+#cityName {
+    font-size: 72px;
+    font-weight: 600;
+    margin: 70px;
+}
+
+.temperature {
+    color: #DBCE88;
+    justify-content: space-between;
+    font-size: 72px;
+    font-weight: 900;
+    margin: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.extra-info {
+    font-size: 32px;
+    font-weight: 600;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}   
